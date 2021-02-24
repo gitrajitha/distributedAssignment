@@ -3,11 +3,11 @@ const mysql = require('mysql');
 //create here mysql connection
 
 const dbConn = mysql.createConnection({
-    host: '127.0.0.1',
-    user: 'root',
-    password: '',
+    host: 'databasemployee.mysql.database.azure.com',
+    user: 'rajitha@databasemployee',
+    password: 'Password1',
     database: 'node_mysql_crud_db',
-    port: 3307
+    //port: 3306
 });
 
 
