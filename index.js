@@ -29,7 +29,7 @@ app.get('/',(req,res)=>{
 const employeeRoutes = require('./src/routes/employee.route');
 
 //create employee routes
-app.use('/api/v1/employee1', employeeRoutes);
+app.use('/api/v1/employee2', employeeRoutes);
 
 // listen to the port
 app.listen(port, ()=>{
