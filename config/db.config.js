@@ -7,7 +7,9 @@ const dbConn = mysql.createConnection({
     user: 'rajitha@databasemployee',
     password: 'Password1',
     database: 'node_mysql_crud_db',
-    //port: 3306
+    //port: 3307
+    
+
 });
 
 
